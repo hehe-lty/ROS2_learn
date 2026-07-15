@@ -1,2 +1,3 @@
-# ROS2_learn
-ROS2_learn
+# ROS2_学习文档
+主要学习鱼香ROS的ROS2教程
+此仓库储存的是学习过程中的代码。
