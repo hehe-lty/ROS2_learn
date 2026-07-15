@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/rick/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rick/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.063s] [ 50%] Built target cpp_node
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[1.085s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.085s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.086s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.086s]                  from [01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:1[m[K:
+[1.086s] [01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.086s] [01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:29:15:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[1.086s]    29 |   RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "hello world!");
+[1.086s]       |               [01;31m[K^~~~[m[K
+[1.086s] [01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:29:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.086s]    29 |   [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "hello world!");
+[1.086s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.289s] gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+[1.289s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+[1.289s] gmake: *** [Makefile:146：all] 错误 2
+[1.291s] Invoked command in '/home/rick/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rick/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32

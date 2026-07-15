@@ -1,0 +1,226 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rick/ROS2/chapt3/topic_practice_ws/build/status_interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  9%] Built target ament_cmake_python_copy_status_interfaces
+running egg_info
+writing status_interfaces.egg-info/PKG-INFO
+writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+writing top-level names to status_interfaces.egg-info/top_level.txt
+reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[  9%] Built target ament_cmake_python_build_status_interfaces_egg
+[  9%] Built target status_interfaces__rs
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_generator_c[0m
+[ 12%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[ 12%] Built target status_interfaces__cpp
+[ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 21%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 25%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[ 25%] Built target status_interfaces__rosidl_generator_c
+[ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_introspection_cpp[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_cpp[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_introspection_c[0m
+[ 46%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_c[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[ 56%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 59%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[ 59%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[ 59%] Built target status_interfaces__rosidl_typesupport_c
+[ 62%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[ 65%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] Built target status_interfaces__rosidl_typesupport_cpp
+[ 68%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 68%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[ 68%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 71%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 71%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[ 71%] Built target status_interfaces
+[ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 75%] Built target status_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_generator_py[0m
+[ 78%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so[0m
+[ 81%] Built target status_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target status_interfaces__rosidl_typesupport_c__pyext[0m
+[ 84%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+Compiling '/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+Listing '/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+Compiling '/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...
+Compiling '/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rust_packages/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/Cargo.toml
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/build.rs
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg/rmw.rs
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg.rs
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/lib.rs
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+-- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+-- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/learn_thead.dir/src/learn_thead.cpp.o -o learn_thead 

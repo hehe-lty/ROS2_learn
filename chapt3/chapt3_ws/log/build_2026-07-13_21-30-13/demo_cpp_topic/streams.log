@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ROS2/chapt3/chapt3_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic -- -j32 -l32
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[1.986s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[2.093s] [100%] Built target turtle_circle
+[2.101s] Invoked command in '/home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ROS2/chapt3/chapt3_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic -- -j32 -l32
+[2.110s] Invoking command in '/home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ROS2/chapt3/chapt3_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic
+[2.119s] -- Install configuration: ""
+[2.119s] -- Installing: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[2.120s] -- Set runtime path of "/home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[2.121s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[2.122s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[2.122s] -- Installing: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[2.122s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[2.122s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[2.122s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[2.122s] -- Up-to-date: /home/rick/ROS2/chapt3/chapt3_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[2.124s] Invoked command in '/home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rick/ROS2/chapt3/chapt3_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/rick/ROS2/chapt3/chapt3_ws/build/demo_cpp_topic

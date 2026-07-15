@@ -1,0 +1,29 @@
+[0.007s] Invoking command in '/home/rick/ROS2/chapt3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rick/ROS2/chapt3/topic_practice_ws/build/status_display -- -j32 -l32
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target sys_status_display[0m
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target hello_qt[0m
+[0.048s] [ 50%] Built target hello_qt
+[0.049s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[4.335s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[4.790s] [100%] Built target sys_status_display
+[4.799s] Invoked command in '/home/rick/ROS2/chapt3/topic_practice_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rick/ROS2/chapt3/topic_practice_ws/build/status_display -- -j32 -l32
+[4.800s] Invoking command in '/home/rick/ROS2/chapt3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rick/ROS2/chapt3/topic_practice_ws/build/status_display
+[4.805s] -- Install configuration: ""
+[4.805s] -- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+[4.805s] -- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
+[4.809s] -- Set runtime path of "/home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[4.809s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[4.809s] -- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[4.809s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[4.809s] -- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[4.809s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.sh
+[4.809s] -- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/path.dsv
+[4.809s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.bash
+[4.809s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.sh
+[4.810s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.zsh
+[4.810s] -- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/local_setup.dsv
+[4.810s] -- Installing: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/package.dsv
+[4.810s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[4.810s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[4.810s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[4.810s] -- Up-to-date: /home/rick/ROS2/chapt3/topic_practice_ws/install/status_display/share/status_display/package.xml
+[4.811s] Invoked command in '/home/rick/ROS2/chapt3/topic_practice_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rick/ROS2/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rick/ROS2/chapt3/topic_practice_ws/build/status_display

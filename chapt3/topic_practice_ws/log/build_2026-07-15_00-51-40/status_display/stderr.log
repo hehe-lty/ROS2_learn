@@ -1,0 +1,27 @@
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:13:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQlabel[m[K’ does not name a type; did you mean ‘[01m[KQLabel[m[K’?
+   13 |   [01;31m[KQlabel[m[K *label_;
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[KQLabel[m[K
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:30:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQstring[m[K’ does not name a type; did you mean ‘[01m[KQString[m[K’?
+   30 |   [01;31m[KQstring[m[K get_qstr_from_msg(const SystemStatus::SharedPtr msg)
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[KQString[m[K
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:47:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   47 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+      |    [31m[K-[m[K
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::SysStatusDisplay()[m[K’:
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel_[m[K’ was not declared in this scope
+   17 |     [01;31m[Klabel_[m[K = new QLabel();
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In lambda function:
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_qstr_from_msg[m[K’ was not declared in this scope
+   22 |         label_->setText([01;31m[Kget_qstr_from_msg[m[K(msg));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::SysStatusDisplay()[m[K’:
+[01m[K/home/rick/ROS2/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:25:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_qstr_from_msg[m[K’ was not declared in this scope
+   25 |       label_->setText([01;31m[Kget_qstr_from_msg[m[K(std::make_shared<SystemStatus>()));
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76：CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/sys_status_display.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

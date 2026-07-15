@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/hellowd.dir/1.cpp.o -o hellowd 

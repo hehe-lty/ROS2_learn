@@ -1,0 +1,7 @@
+[ 50%] Built target learn_shared_ptr
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_thead.dir/src/learn_thead.cpp.o[0m
+[ 50%] Built target learn_funcational
+[ 50%] Built target learn_auto
+[ 64%] Built target learn_lambda
+[ 78%] Built target person_node
+[ 92%] Built target cpp_node

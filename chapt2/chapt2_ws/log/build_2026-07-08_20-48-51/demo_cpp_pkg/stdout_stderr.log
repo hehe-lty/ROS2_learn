@@ -1,0 +1,22 @@
+[ 50%] Built target learn_shared_ptr
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_thead.dir/src/learn_thead.cpp.o[0m
+[ 50%] Built target learn_funcational
+[ 50%] Built target learn_auto
+[ 64%] Built target learn_lambda
+[ 78%] Built target person_node
+[ 92%] Built target cpp_node
+[01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thead.cpp:33:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   33 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thead.cpp:[m[K In lambda function:
+[01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thead.cpp:39:52:[m[K [01;31m[Kerror: [m[K‘[01m[Klength[m[K’ was not declared in this scope
+   39 |         std::cout << "下载完成: " << path<< result,[01;31m[Klength[m[K()<< "->"<<result.substr<<std::endl;
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thead.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/rick/chapt2/chapt2_ws/src/demo_cpp_pkg/src/learn_thead.cpp:42:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kd[m[K’
+   42 |     [01;31m[Kd[m[K.start_download("http://0.0.0.0:8000", "/chapt2_ws/novel1.txt", word_count);
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/learn_thead.dir/build.make:76：CMakeFiles/learn_thead.dir/src/learn_thead.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:305：CMakeFiles/learn_thead.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

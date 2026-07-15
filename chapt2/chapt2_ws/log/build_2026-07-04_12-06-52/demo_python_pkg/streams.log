@@ -1,0 +1,27 @@
+[0.255s] Invoking command in '/home/rick/chapt2/chapt2_ws/src/demo_python_pkg': PYTHONPATH=/home/rick/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/rick/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/rick/chapt2/chapt2_ws/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data
+[0.348s] running egg_info
+[0.348s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.348s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.348s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.349s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.349s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.349s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.349s] adding license file 'LICENSE'
+[0.350s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.350s] running build
+[0.350s] running build_py
+[0.350s] copying demo_python_pkg/person_node.py -> /home/rick/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.350s] running install
+[0.350s] running install_lib
+[0.350s] copying /home/rick/chapt2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/person_node.py -> /home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.350s] byte-compiling /home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/person_node.py to person_node.cpython-310.pyc
+[0.351s] running install_data
+[0.351s] running install_egg_info
+[0.352s] removing '/home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.352s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.352s] running install_scripts
+[0.361s] Installing person_node script to /home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.361s] Installing python_node script to /home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.361s] Installing writer_node script to /home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[0.362s] writing list of installed files to '/home/rick/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
+[0.372s] Invoked command in '/home/rick/chapt2/chapt2_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/home/rick/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rick/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/rick/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/rick/chapt2/chapt2_ws/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data

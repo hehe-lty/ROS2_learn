@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_auto[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_lambda[0m
+[35m[1mConsolidate compiler generated dependencies of target learn_funcational[0m
+[35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[  7%] [32mBuilding CXX object CMakeFiles/learn_thead.dir/src/learn_thead.cpp.o[0m
+[ 21%] Built target learn_shared_ptr
+[ 35%] Built target learn_auto
+[ 50%] Built target learn_lambda
+[ 64%] Built target learn_funcational
+[ 78%] Built target cpp_node
+[ 92%] Built target person_node
