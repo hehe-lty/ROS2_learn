@@ -59,4 +59,25 @@ ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist '{linear: {x: 2.0, y: 0.
 #查看话题频率
 ros2 topic hz /turtle1/cmd_vel 
 
+#查看参数列表
+ros2 param list
+
+#查询参数含义
+ros2 param describe /turtlesim background_r
+
+#查询参数值
+ros2 param get /turtlesim background_r
+
+#设置参数值
+ros2 param set /turtlesim background_r 200
+
+#将参数导出到文件里面
+ros2 param dump /turtlesim > turtlesim_param.yaml
+
+#将参数文件导入到程序中
+ros2 run turtlesim turtlesim_node --ros-args --params-file turtlesim_param.yaml 
+
+
+
+
 
