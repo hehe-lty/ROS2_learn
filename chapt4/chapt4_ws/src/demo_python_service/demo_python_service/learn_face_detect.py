@@ -1,10 +1,15 @@
 import face_recognition
 import cv2
 from ament_index_python.packages import get_package_share_directory
+import os
 
 def main():
     #获取照片路径
-    defaut_image_path =get_package_share_directory('demo_python_service')+'/resource/default.jpg'
+    # defaut_image_path = get_package_share_directory(
+    #     'demo_python_service')+'/resource/default.jpg'
+    defaut_image_path = os.path.join(get_package_share_directory(
+        'demo_python_service'), 'resource/default.jpg')
+
     print(f"默认图片路径:{defaut_image_path}")
     #使用opencv加载图像
     image = cv2.imread(defaut_image_path)
