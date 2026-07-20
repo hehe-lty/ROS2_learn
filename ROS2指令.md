@@ -77,6 +77,9 @@ ros2 param dump /turtlesim > turtlesim_param.yaml
 #将参数文件导入到程序中
 ros2 run turtlesim turtlesim_node --ros-args --params-file turtlesim_param.yaml 
 
+#在启动过程中设置参数
+ros2 run demo_python_service face_detect_node --ros-args -p model:=cnn
+
 #查看服务列表
 ros2 service list -t
 

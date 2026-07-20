@@ -15,6 +15,10 @@ find_package(turtlesim REQUIRED)
 add_executable(turtle_control src/turtle_control.cpp)
 ament_target_dependencies(turtle_control rclcpp geometry_msgs turtlesim chapt4_interfaces)
 
+add_executable(patrol_client src/patrol_client.cpp)
+ament_target_dependencies(patrol_client rclcpp chapt4_interfaces)
+
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
@@ -27,7 +31,7 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-install(TARGETS turtle_control
+install(TARGETS turtle_control patrol_client
 DESTINATION lib/${PROJECT_NAME}
 )
 
