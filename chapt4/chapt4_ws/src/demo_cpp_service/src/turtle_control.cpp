@@ -3,13 +3,16 @@
 #include "turtlesim/msg/pose.hpp"
 #include <chrono> 
 #include "chapt4_interfaces/srv/patrol.hpp"
+#include "rcl_interfaces/msg/set_parameters_result.hpp"
 
 using Patrol = chapt4_interfaces::srv::Patrol; //定义服务类型
+using SetParametersResult = rcl_interfaces::msg::SetParametersResult; //定义服务类型
 
 
 class TurtleControlNode: public rclcpp::Node
 {
 private:
+    OnSetParametersCallbackHandle::SharedPtr param_callback_handle_; //参数回调句柄
     rclcpp::Service<Patrol>::SharedPtr patrol_service_; //服务智能指针
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_; //发布者智能指针
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr subscriber_; //订阅者智能指针
@@ -22,6 +25,28 @@ private:
 public:
     explicit TurtleControlNode(const std::string& node_name): Node(node_name)
     { 
+        this->declare_parameter("k", 1.0);
+        this->declare_parameter("max_speed", 1.0);
+        this->get_parameter("k", k_);
+        this->get_parameter("max_speed", max_speed_);
+
+        this->set_parameter(rclcpp::Parameter("k", 2.0));//内部设置参数值
+    
+        param_callback_handle_ = this->add_on_set_parameters_callback(
+            [&](const std::vector<rclcpp::Parameter> &parameters) -> 
+            rcl_interfaces::msg::SetParametersResult {
+                rcl_interfaces::msg::SetParametersResult result;
+                result.successful = true;
+                for (const auto &param : parameters) {
+                    RCLCPP_INFO(this->get_logger(),"更新参数值%s=%f", param.get_name().c_str(), param.as_double());
+                    if (param.get_name() == "k") {
+                        k_ = param.as_double();
+                    } else if (param.get_name() == "max_speed") {
+                        max_speed_ = param.as_double();
+                    }
+                }
+                return result;
+            });
         patrol_service_ = this->create_service<Patrol>(
             "patrol", [&](const Patrol::Request::SharedPtr request, 
             Patrol::Response::SharedPtr response) -> void {

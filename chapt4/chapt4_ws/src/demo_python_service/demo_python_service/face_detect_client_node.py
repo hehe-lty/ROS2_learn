@@ -21,7 +21,7 @@ class FaceDetectorClientNode(Node):
 
     def call_set_parameters(self, parameters):
         """
-        调用服务，修改参数
+        调用服务，修改参数 
         """
         #1.创建客户端，等待服务上线
         update_param_client = self.create_client(SetParameters, '/face_detect_node/set_parameters')
