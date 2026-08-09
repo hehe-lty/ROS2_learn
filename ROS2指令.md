@@ -86,7 +86,8 @@ ros2 service list -t
 #请求服务
 ros2 service call /face_detect chapt4_interfaces/srv/FaceDetector
 
-
+#launch 启动指令
+ros2 launch demo_cpp_service demo.launch.py
 
 
 
