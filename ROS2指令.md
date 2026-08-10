@@ -89,5 +89,16 @@ ros2 service call /face_detect chapt4_interfaces/srv/FaceDetector
 #launch 启动指令
 ros2 launch demo_cpp_service demo.launch.py
 
+#调用自带的静态发布
+ros2 run tf2_ros static_transform_publisher --x 0.1 --y 0.0 --z 0.2 --roll 0.0 --pitch 0.0 --yaw 0,0 --frame-id base_link --child-frame-id base_laser
 
+ros2 run tf2_ros static_transform_publisher --x 0.3 --y 0.0 --z 0.2 --roll 0.0 --pitch 0.0 --yaw 0,0 --frame-id base_laser --child-frame-id wall_point
 
+#查看从base_link到wall_point的关系
+ros2 run tf2_ros tf2_echo base_link wall_point
+
+#3d可视化工具，辅助理解tf坐标
+3d-rotation-converter
+
+#查看tf树
+ros2 run tf2_tools view_frames
