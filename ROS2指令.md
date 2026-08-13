@@ -102,3 +102,14 @@ ros2 run tf2_ros tf2_echo base_link wall_point
 
 #查看tf树
 ros2 run tf2_tools view_frames
+
+#启动RViz并指定配置文件
+rviz2 -d ~/chapt5/rviz_tf.rviz
+
+#录制rosbag
+ros2 bag record /turtle1/cmd_vel
+
+#播放rosbag
+ros2 bag play rosbag2_2026_08_13-20_37_06_0.db3
+
+
