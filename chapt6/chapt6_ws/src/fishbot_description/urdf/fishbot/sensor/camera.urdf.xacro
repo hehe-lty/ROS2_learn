@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro"/>
     <xacro:macro name="camera_xacro" params="camera_name xyz rpy">
         <!-- 机器的摄像头 -->
         <link name="${camera_name}_link">
         <!-- 部件的外观描述 -->
-            <visual>
+            <visual name="camera_visual">
             <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
@@ -14,6 +15,18 @@
                     <color rgba="0.0 0.0 1.0 0.5"/>
                 </material>
             </visual>
+            
+            <collision name="camera_collision">
+            <!-- 沿着自己几何中心的偏移和旋转量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.10 0.02"/>
+                </geometry>
+                <material name="blue">
+                    <color rgba="0.0 0.0 1.0 0.5"/>
+                </material>   
+            </collision>
+            <xacro:box_inertia m="0.01" w="0.02" h="0.10" d="0.02" />
         </link>
         <!-- 机器人的关节，用于连接camera_link和base_link -->
         <joint name="${camera_name}_joint" type="fixed">

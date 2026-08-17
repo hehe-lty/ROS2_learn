@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro"/>
+
     <xacro:macro name="laser_xacro" params="laser_name xyz rpy">
 
         <!-- 雷达支撑杆 laser_cylinder_link -->
         <link name="${laser_name}_cylinder_link">
-            <visual>
+            <visual name="laser_cylinder_visual">
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
                     <cylinder radius="0.01" length="0.1"/>
@@ -13,12 +15,23 @@
                     <color rgba="0.5 0.5 0.5 1.0"/>
                 </material>
             </visual>
+            <collision name="laser_cylinder_collision">
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.01" length="0.1"/>
+                </geometry>
+                <material name="gray">
+                    <color rgba="0.5 0.5 0.5 1.0"/>
+                </material>
+                
+            </collision>
+            <xacro:cylinder_inertia m="0.01" r="0.01" h="0.10" />
         </link>
 
         <!-- 机器的激光雷达 -->
         <link name="${laser_name}_link">
         <!-- 部件的外观描述 -->
-            <visual>
+            <visual name="laser_visual">
             <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
@@ -28,6 +41,19 @@
                     <color rgba="0.0 0.0 1.0 0.5"/>
                 </material>
             </visual>
+            <!-- 碰撞属性 -->
+            <collision name="laser_collision">
+            <!-- 沿着自己几何中心的偏移和旋转量 -->
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <cylinder radius="0.02" length="0.02"/>
+                </geometry>
+                <material name="blue">
+                    <color rgba="0.0 0.0 1.0 0.5"/>
+                </material>
+                
+            </collision>
+            <xacro:cylinder_inertia m="0.03" r="0.02" h="0.02" />
         </link>
         <!-- 机器人的关节，用于连接laser_link和laser_cylinder_link -->
         <joint name="${laser_name}_joint" type="fixed">
