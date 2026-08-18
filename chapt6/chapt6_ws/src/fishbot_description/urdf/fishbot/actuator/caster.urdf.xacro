@@ -2,10 +2,23 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro"/>
     <xacro:macro name="caster_xacro" params="caster_name xyz rpy">
+         <!-- gazebo中添加颜色 -->
+    <gazebo reference="${caster_name}_link">
+        <material>Gazebo/Yellow</material>
+        <!-- 切向摩擦系数 -->
+        <mu1 value="0.0" />
+        <!-- 法相摩擦系数 -->
+        <mu2 value="0.0" />
+        <!-- 接触刚度系数 -->
+        <kp value="1000000000.0" />
+        <!-- 阻尼系数 -->
+        <kd value="1.0" />
+    </gazebo>
+    
         <!-- 机器的万向轮 -->
         <link name="${caster_name}_link">
         <!-- 部件的外观描述 -->
-            <visual name="caster_visual">
+            <visual>
             <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
@@ -17,7 +30,7 @@
             </visual>
             
             <!-- 碰撞属性 -->
-            <collision name="caster_collision">
+            <collision>
              <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>

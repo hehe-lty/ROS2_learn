@@ -3,10 +3,17 @@
     <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro"/>
 
     <xacro:macro name="laser_xacro" params="laser_name xyz rpy">
+    <!-- gazebo中添加颜色 -->
+    <gazebo reference="{laser_name}_cylinder_link">
+        <material>Gazebo/Gray</material>
+    </gazebo>
+    <gazebo reference="${laser_name}_link">
+        <material>Gazebo/Gray</material>
+    </gazebo>
 
         <!-- 雷达支撑杆 laser_cylinder_link -->
         <link name="${laser_name}_cylinder_link">
-            <visual name="laser_cylinder_visual">
+            <visual>
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
                     <cylinder radius="0.01" length="0.1"/>
@@ -15,7 +22,7 @@
                     <color rgba="0.5 0.5 0.5 1.0"/>
                 </material>
             </visual>
-            <collision name="laser_cylinder_collision">
+            <collision>
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
                     <cylinder radius="0.01" length="0.1"/>
@@ -31,7 +38,7 @@
         <!-- 机器的激光雷达 -->
         <link name="${laser_name}_link">
         <!-- 部件的外观描述 -->
-            <visual name="laser_visual">
+            <visual>
             <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
@@ -42,7 +49,7 @@
                 </material>
             </visual>
             <!-- 碰撞属性 -->
-            <collision name="laser_collision">
+            <collision>
             <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>

@@ -20,6 +20,12 @@
 <xacro:caster_xacro caster_name="front_caster" xyz="0.08 0.0 -0.076" rpy="0.0 0.0 0.0"/>
 <xacro:caster_xacro caster_name="rear_caster" xyz="-0.08 0.0 -0.076" rpy="0.0 0.0 0.0"/>
 
+<!-- Gazebo 插件 -->
+<xacro:include filename="$(find fishbot_description)/urdf/fishbot/plugins/gazebo_control_plugin.xacro" />
+<xacro:gazebo_control_plugin />
+<!-- <xacro:include filename="$(find fishbot_description)/urdf/fishbot/fishbot.ros2_control.xacro" /> -->
+<!-- <xacro:fishbot_ros2_control /> -->
+
 </robot>
 
 <!-- ros2 launch fishbot_description display_robot.launch.py urdf_path:=/home/rick/ROS2_learn/chapt6/chapt6_ws/src/fishbot_description/urdf/fishbot/fishbot.urdf.xacro -->

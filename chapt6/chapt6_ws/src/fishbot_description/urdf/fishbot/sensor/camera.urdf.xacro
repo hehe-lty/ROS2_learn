@@ -2,10 +2,14 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro"/>
     <xacro:macro name="camera_xacro" params="camera_name xyz rpy">
+    <!-- gazebo中添加颜色 -->
+    <gazebo reference="${camera_name}_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
         <!-- 机器的摄像头 -->
         <link name="${camera_name}_link">
         <!-- 部件的外观描述 -->
-            <visual name="camera_visual">
+            <visual>
             <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
@@ -16,7 +20,7 @@
                 </material>
             </visual>
             
-            <collision name="camera_collision">
+            <collision>
             <!-- 沿着自己几何中心的偏移和旋转量 -->
                 <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
                 <geometry>
