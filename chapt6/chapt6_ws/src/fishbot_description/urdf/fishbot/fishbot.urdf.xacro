@@ -22,9 +22,12 @@
 
 <!-- Gazebo 插件 -->
 <xacro:include filename="$(find fishbot_description)/urdf/fishbot/plugins/gazebo_control_plugin.xacro" />
-<xacro:gazebo_control_plugin />
-<!-- <xacro:include filename="$(find fishbot_description)/urdf/fishbot/fishbot.ros2_control.xacro" /> -->
-<!-- <xacro:fishbot_ros2_control /> -->
+<xacro:include filename="$(find fishbot_description)/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro" />
+<xacro:include filename="$(find fishbot_description)/urdf/fishbot/fishbot.ros2_control.xacro" />
+
+<!-- <xacro:gazebo_control_plugin /> -->
+<xacro:gazebo_sensor_plugin />
+<xacro:fishbot_ros2_control />
 
 </robot>
 

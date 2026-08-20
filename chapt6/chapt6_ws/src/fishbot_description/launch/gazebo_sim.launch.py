@@ -40,13 +40,14 @@ def generate_launch_description():
         arguments=['-topic', '/robot_description',
                    '-entity', 'fishbot', ])
     
-    #joint_state_publisher节点用于发布关节状态信息，默认使用joint_state_publisher_gui图形界面
+    # joint_state_publisher节点用于发布关节状态信息，默认使用joint_state_publisher_gui图形界面
     # action_joint_state_publisher = launch_ros.actions.Node(
     #     package='joint_state_publisher',
     #     executable='joint_state_publisher',
     #     name='joint_state_publisher',
     #     output='screen'
     # )
+
     #启动rviz2可视化工具
     # action_rviz2_node = launch_ros.actions.Node(
     #     package='rviz2',

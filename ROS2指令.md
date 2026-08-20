@@ -112,4 +112,25 @@ ros2 bag record /turtle1/cmd_vel
 #播放rosbag
 ros2 bag play rosbag2_2026_08_13-20_37_06_0.db3
 
+# 列出硬件接口
+ros2 control list_hardware_interfaces
+
+# 列出硬件组件
+ros2 control list_hardware_components 
+
+# 列出控制器类型
+ros2 control list_controller_types
+
+# 列出已加载的控制器
+ros2 control list_controllers
+
+# 加载 joint_state_broadcaster 控制器(设为 inactive 状态)
+ros2 control load_controller fishbot_joint_state_broadcaster --set-state inactive 
+
+# 设置控制器状态为 inactive
+ros2 control set_controller_state fishbot_joint_state_broadcaster inactive 
+
+# 卸载控制器
+ros2 control unload_controller fishbot_joint_state_broadcaster
+
 

@@ -29,7 +29,7 @@
                     <!-- 设置扫描距离 -->
                     <range>
                         <min>0.120000</min>
-                        <max>8.0</max>
+                        <max>10.0</max>
                         <resolution>0.015000</resolution>
                     </range>
                     <!-- 设置噪声 -->

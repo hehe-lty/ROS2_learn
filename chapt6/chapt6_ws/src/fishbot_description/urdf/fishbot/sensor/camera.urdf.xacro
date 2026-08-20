@@ -32,11 +32,20 @@
             </collision>
             <xacro:box_inertia m="0.01" w="0.02" h="0.10" d="0.02" />
         </link>
+
+        <link name="${camera_name}_optical_link"></link>
+        
         <!-- 机器人的关节，用于连接camera_link和base_link -->
         <joint name="${camera_name}_joint" type="fixed">
             <parent link="base_link"/>
             <child link="${camera_name}_link"/>
             <origin xyz="${xyz}" rpy="${rpy}"/>
+        </joint>
+
+        <joint name="${camera_name}_optical_joint" type="fixed">
+            <parent link="${camera_name}_link"/>
+            <child link="${camera_name}_optical_link"/>
+            <origin xyz="0 0 0" rpy="${-pi/2} 0.0 ${-pi/2}"/>
         </joint>
     </xacro:macro>
 
